@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 외곽 둥근 네이비 배경 -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M24,6 L84,6 A18,18 0 0,1 102,24 L102,84 A18,18 0 0,1 84,102 L24,102 A18,18 0 0,1 6,84 L6,24 A18,18 0 0,1 24,6 Z" />
+
+    <!-- 안쪽 청록색 링 테두리 -->
+    <path
+        android:fillColor="#1E293B"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:pathData="M54,16 A38,38 0 1,1 53.9,16 Z" />
+
+    <!-- 정밀 측량 타깃 동심원 (녹색) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#22C55E"
+        android:strokeWidth="2.2"
+        android:pathData="M54,32 A22,22 0 1,1 53.9,32 Z" />
+
+    <!-- 타깃 십자선 -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.2"
+        android:pathData="M54,12 L54,28 M54,80 L54,96 M12,54 L28,54 M80,54 L96,54" />
+
+    <!-- 우측 상단 GPS 위성 날개 아이콘 (골드/옐로우) -->
+    <path
+        android:fillColor="#FACC15"
+        android:pathData="M73,23 L81,15 L86,20 L78,28 Z M82,29 L90,21 L95,26 L87,34 Z" />
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M76,25 L84,33 L80,37 L72,29 Z" />
+
+    <!-- 중앙 RTK GPS 안테나 핀 심볼 -->
+    <path
+        android:fillColor="#22C55E"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.0"
+        android:pathData="M54,36 C45.2,36 38,43.2 38,52 C38,63.5 54,77 54,77 C54,77 70,63.5 70,52 C70,43.2 62.8,36 54,36 Z" />
+
+    <!-- 중앙 정밀 포인트 코어 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,46 A6,6 0 1,1 53.9,46 Z" />
+</vector>
